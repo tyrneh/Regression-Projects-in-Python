@@ -25,4 +25,6 @@ select
      on a.acct_id = b.acct_id                  --join by matching accounts
      and b.trxn_dt >= a.stmt_bgn_dt            --make sure that the transactions happend after the start of the statement
      and b.trxn_dt <= a.stmt_end_dt            --make sure the transaction happened prior to the end of the statement
+    
+    group by 1,2,3
 );
