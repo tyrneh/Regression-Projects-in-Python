@@ -27,4 +27,8 @@ select
      and b.trxn_dt <= a.stmt_end_dt            --make sure the transaction happened prior to the end of the statement
     
     group by 1,2,3
+    
+    --the left join will result in every transaction being a new row
+    --But then by grouping by account per statement, and summing trxn_amt over all rows, that leaves 1 row of sum(trxn_amt) per statement
 );
+
