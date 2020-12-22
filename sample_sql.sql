@@ -1,6 +1,6 @@
 /*
-very simple query where I pretend to join a table containing a monthly view of credit-card accounts, to a transaction-level table
-that contains every transaction of every account. I attempt to find the monthly sum of payments from the transaction level table and attach it to the monthly view of accounts.
+very simple query where I attempt to find every account's monthly payments. 
+I pretend to join a table containing a monthly view of credit-card accounts, to a transaction-level table that contains every transaction of every account. 
 */
 
 create or replace table sb.user_xyz.analysis as (
