@@ -1,5 +1,5 @@
 /*
-very simple query where I pretend to join a table containing a monthly view of accounts, to a transaction-level table
+very simple query where I pretend to join a table containing a monthly view of credit-card accounts, to a transaction-level table
 that contains every transaction of every account. I attempt to find the monthly sum of payments from the transaction level table and attach it to the monthly view of accounts.
 Apologies if there's any mistakes as I haven't used SQL in quite a few months and I'm just visualizing what the tables would look like.
 */
