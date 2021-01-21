@@ -1,6 +1,6 @@
-# Introduction
+# Motivation
 
-In the heterogenous -agent neoclassical growth model with stochastic income:
+In the heterogenous-agent neoclassical growth model with stochastic income:
 - the representative household solves its utility maximization problem subject to budget constraint (households solve the same problem ex-ante, but face different realizations of income which causes heterogeneity when simulating over many individuals)
 - the representative firm solves its profit maximization problem
 - the market clears
