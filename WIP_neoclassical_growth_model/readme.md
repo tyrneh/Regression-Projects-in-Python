@@ -11,5 +11,5 @@ See [calibrated model results here](https://github.com/tyrneh/sample_python_code
 
 However, we see that this standard growth model fails to replicate the large amount of wealth concentration at the top of the wealth distribution in the United States, United Kingdom, and other developed countries. In particular it fails to match statistics like the top 1% wealth sahres. In the US for example, we find that the top 1% of wealth share holds 37% of total wealth, while our model predicts top 1% should hold 2.3% of total wealth. 
 
-One possible extension of this heterogenous-agent growth model that researchers have proposed to explain top wealth inequality is to allow for stochastic rates of return (Benhabib & al, 2014). 
+One possible extension of this heterogenous-agent growth model that researchers have proposed to explain top wealth inequality is to allow for stochastic rates of return ([Benhabib & al, 2014](https://www.researchgate.net/publication/301891020_Wealth_Distribution_and_Social_Mobility_in_the_US_A_Quantitative_Approach)). 
 In [vfi_stochastic_income_and_returns](https://github.com/tyrneh/sample_python_code/blob/main/WIP_neoclassical_growth_model/vfi_stochastic_income_and_returns.ipynb), I attempt to extend this standard model to have stochastic returns. 
